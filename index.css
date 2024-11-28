@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b10018bd;
+    color: #fff;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: #ffe4d4;
+    margin: 10px 0;
+}
+
+h1 {
+    margin: 5px 0 20px;
+    font-size: 2rem;
+    color: #ffe4d4;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #333;
+}
+
+.card.popular {
+    border: 2px solid #ffe4d4;
+    position: relative;
+    transform: translateY(-15px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.card.popular .badge {
+    position: absolute;
+    top: -10px;
+    background: #ffe4d4;
+    color: #4c35e0;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.emoji {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 2rem;
+    color: #4c35e0;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    color: #666;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+button {
+    background: #4c35e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #3327a0;
+}
+
+.link {
+    color: #4c35e0;
+    text-decoration: underline;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #3327a0;
+}
